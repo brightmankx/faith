@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-![富士山](../images/20230817_mtfuji_predawn.jpg)
+![富士山の夜明け](images/20230817_mtfuji_predawn.jpg)
 
 
 
@@ -27,7 +27,7 @@ layout: default
 
 
 浄霊のための音（ティンシャ・おりん・錫杖）と、暗唱モードを備えた Web アプリです。
-
+![起動画面](images/self-jyourei.png)
 
 
 セルフ浄霊：https://brightmankx.github.io/self-jyourei/index.html
@@ -59,6 +59,7 @@ Instagram：https://www.instagram.com/brightman.kx/
 
 
 必要なものを、必要なときに、静かに置いていきます。
+
 
 
 
