@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-![富士山の夜明け](images/20230817_mtfuji_predawn.jpg)
+![富士山](../images/20230817_mtfuji_predawn.jpg)
 
 
 
@@ -59,6 +59,7 @@ Instagram：https://www.instagram.com/brightman.kx/
 
 
 必要なものを、必要なときに、静かに置いていきます。
+
 
 
 
