@@ -1,7 +1,3 @@
----
-title: My Links
-layout: default
----
 
 <!-- 背景画像（横幅いっぱい） -->
 <div style="width:100%; height:300px; background-image:url('images/20230817_mtfuji_predawn.jpg'); background-size:cover; background-position:center; border-radius:8px;"></div>
@@ -18,7 +14,7 @@ layout: default
 </p>
 
 <p align="center">
-気付きを得た50代の情報発信です。  
+気付きを得た50代の情報発信です。師はジャスミン様です。
 日々の学びや実践を、静かに記録していきます。
 </p>
 
@@ -49,12 +45,33 @@ layout: default
 
 ### 📱 アプリ画面
 
-<p align="center">
-  <img src="images/ss_shake.png" width="200">
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px;">
+
+  <img src="images/ss_shake.png"  width="200">
   <img src="images/ss_dialog.png" width="200">
   <img src="images/ss_select.png" width="200">
   <img src="images/ss_mantra.png" width="200">
+
+</div>
+
+---
+
+### 📥 Webアプリ（PWA）のインストール方法
+
+<p align="center">
+スマホのホーム画面に追加すると、アプリのように素早く開けます。  
+以下の手順で簡単にインストールできます。
 </p>
+
+📱 **Android（Chrome）**  
+- 右上の「︙」をタップ  
+- ［ホーム画面に追加］ を選ぶ  
+- ［追加］ を押すとホーム画面に入ります
+
+🍎 **iPhone（Safari）**  
+- 下の 共有ボタン（□↑） をタップ  
+- 下にスクロールして ［ホーム画面に追加］  
+- ［追加］ を押すとホーム画面に入ります
 
 ---
 
