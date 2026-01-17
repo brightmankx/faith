@@ -7,7 +7,7 @@
 
 ---
 
-# 🌄 自己紹介
+# 🌿 自己紹介
 
 <p align="center">
   <img src="images/profielic.jpg" width="180" style="border-radius:8px;">
@@ -29,7 +29,7 @@
 
 ---
 
-## 📥 Webアプリ（PWA）のインストール方法
+## 📲 Webアプリ（PWA）のインストール方法
 
 <p align="center">
 スマホのホーム画面に追加すると、アプリのように素早く開けます。  
@@ -48,7 +48,7 @@
 
 ---
 
-## 🔔 セルフ浄霊アプリ
+## 🕯️ セルフ浄霊アプリ
 
 <p align="center">
   <img src="images/ss_appic.png" width="90" style="border-radius:12px; margin-bottom:12px;">
@@ -69,7 +69,7 @@
   </a>
 </p>
 
-### 📱 セルフ浄霊スクリーンショット
+### 🖼️ セルフ浄霊スクリーンショット
 
 <table align="center">
   <tr>
@@ -82,14 +82,14 @@
   </tr>
 </table>
 
-### 📱 セルフ浄霊Q&A
+### 📝 セルフ浄霊Q&A
 
 <p align="center">
 問い合わせや更新履歴を記します。
 不具合や改善点をお寄せください。
 </p>
 
-## 🔔 （第２弾アプリ）
+## ✨ （第２弾アプリ）
 
 <p align="center">
 現在構想中です。リクエストをお寄せください。
@@ -113,9 +113,10 @@
 
 ---
 
-# 🌙 お問い合わせ
+# 📨 お問い合わせ
 
 <p align="center">
 ご質問やご感想などありましたら、  
 メールまたは Instagram の DM からお気軽にお寄せください。
 </p>
+
