@@ -27,7 +27,7 @@ layout: default
 
 
 浄霊のための音（ティンシャ・おりん・錫杖）と、暗唱モードを備えた Web アプリです。
-![起動画面](images/self-jyourei.png)
+![アイコン](images/ss_appic.png),![シェイク画面](images/ss_shake.png),![設定画面](images/ss_dialog.png),![真言選択](images/ss_select.png),![暗唱画面](images/ss_mantra.png)
 
 
 セルフ浄霊：https://brightmankx.github.io/self-jyourei/index.html
@@ -59,6 +59,7 @@ Instagram：https://www.instagram.com/brightman.kx/
 
 
 必要なものを、必要なときに、静かに置いていきます。
+
 
 
 
