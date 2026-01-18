@@ -37,12 +37,10 @@
   <a href="https://brightmankx.github.io/self-jyourei/index.html">
     ▶ Webアプリ（Android/iPhone対応）
   </a>
-</p>
 <p align="center">
-  <a href="https://brightmankx.github.io/self-jyourei/index.html">
-    ▶ ネイティブアプリ（Android対応）
-  </a>
-</p>
+<a href="https://github.com/brightmankx/faith/releases/latest/download/self_jyourei_v1.0.apk">
+  ▶ ネイティブアプリ（Android対応）
+</a>
 
 <p>&nbsp;</p>
 
@@ -54,7 +52,9 @@
   <img src="images/ss_select.png" class="ss-thumb">
   <img src="images/ss_mantra.png" class="ss-thumb">
 </div>
-
+<p style="text-align:center; color:#777; font-size:0.9em;">
+  ※ アプリ画面の一部です
+</p>
 <p>&nbsp;</p>
 
 ### 📝 Q&A
@@ -71,7 +71,7 @@
 
 ## 📲 インストール方法
 
-Webアプリはブラウザでも動作しますが、スマホのホーム画面に追加した方が通信が少なく素早く開けます。  
+Webアプリはブラウザでも動作しますが、スマホのホーム画面に追加した方がオフラインで素早く開けます。  
 以下の手順で簡単にインストールできます。
 ### 📱 Android（Chrome）
 - 右上の「︙」をタップ  
@@ -86,7 +86,8 @@ Webアプリはブラウザでも動作しますが、スマホのホーム画�
 以下の手順でインストールできます。
 ### 📱 Android（Ver7以降）
 - APKファイルをスマホにダウンロードしてタップ  
-- 「保護されていないアプリを・・・」が表示されたら許可  
+- 「この種類のファイルは・・・」という警告が出たら「続行」を選択
+- 「提供元不明のアプリのインストールを許可しますか？」は「許可」をオン
 
 <p>&nbsp;</p>
 
@@ -126,5 +127,6 @@ document.getElementById('lightbox-overlay').addEventListener('click', () => {
   document.getElementById('lightbox-overlay').style.display = 'none';
 });
 </script>
+
 
 
