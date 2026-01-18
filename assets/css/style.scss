@@ -4,30 +4,92 @@
 @import "{{ site.theme }}";
 
 /* ============================
-   全体を左寄せにする（最強版）
+   note風：背景色
    ============================ */
+body {
+  background: #fafafa !important;
+  font-size: 17px;
+  line-height: 1.95;
+  letter-spacing: 0.2px;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
 
-.main-content,
-.markdown-body,
-.markdown-body * {
+/* ============================
+   note風：本文幅と余白
+   ============================ */
+.main-content {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
   text-align: left !important;
 }
 
 /* ============================
-   スクリーンショットの枠線を完全に消す（最強版）
+   note風：段落の余白
    ============================ */
+p {
+  margin: 1.6em 0 !important;
+}
 
+/* ============================
+   note風：見出し
+   ============================ */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  border: none !important;
+}
+
+/* h1 */
+h1 {
+  font-size: 2.2rem;
+  margin-top: 2.8em;
+  margin-bottom: 1.4em;
+}
+
+/* h2（note風の薄いライン） */
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2.4em;
+  margin-bottom: 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+/* h3 */
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* ============================
+   note風：引用
+   ============================ */
+blockquote {
+  border-left: 4px solid #e0e0e0;
+  padding-left: 1em;
+  color: #555;
+  margin: 1.8em 0;
+}
+
+/* ============================
+   note風：画像（枠線完全除去）
+   ============================ */
 .markdown-body img,
-.markdown-body table img,
 .main-content img,
 img {
   border: none !important;
   box-shadow: none !important;
   outline: none !important;
   background: none !important;
+  border-radius: 8px;
 }
 
-/* Slate が table に枠線を付けるので潰す */
+/* Slate の table 枠線を完全に消す */
 .markdown-body table,
 .markdown-body td,
 .markdown-body th {
@@ -36,67 +98,18 @@ img {
 }
 
 /* ============================
-   note風：本文の読みやすさ
+   note風：リンク色
    ============================ */
-
-body {
-  font-size: 17px;
-  line-height: 1.9;
-  letter-spacing: 0.2px;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-               "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
-}
-
-.main-content {
-  max-width: 760px;
-  margin: 0 auto;
+a {
+  color: #2c6db8;
 }
 
 /* ============================
-   note風：段落の余白
+   note風：ヘッダー
    ============================ */
-
-p {
-  margin: 1.4em 0 !important;
-}
-
-/* ============================
-   note風：見出しデザイン
-   ============================ */
-
-h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: #222;
-  border: none !important;
-}
-
-/* h2 に note風の薄いライン */
-h2 {
-  border-bottom: 1px solid #e5e5e5 !important;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
-}
-
-/* ============================
-   引用デザイン（note風）
-   ============================ */
-
-blockquote {
-  border-left: 4px solid #e0e0e0;
-  padding-left: 1em;
-  color: #555;
-  margin: 1.6em 0;
-}
-
-/* ============================
-   ヘッダー（note風）
-   ============================ */
-
 header {
   background: #ffffff !important;
-  padding: 12px 0 !important;
+  padding: 14px 0 !important;
   border-bottom: 1px solid #e5e5e5 !important;
 }
 
@@ -104,7 +117,6 @@ header h1 {
   text-align: center !important;
   font-size: 2.3rem !important;
   font-weight: 600;
-  letter-spacing: 1px;
   color: #333 !important;
 }
 
@@ -116,16 +128,15 @@ header a[href*="github"] {
 }
 
 /* ============================
-   フッター（note風）
+   note風：フッター
    ============================ */
-
 footer {
   background: #ffffff !important;
-  padding: 10px 0 !important;
+  padding: 12px 0 !important;
   border-top: 1px solid #e5e5e5 !important;
 }
 
-/* フッターの全要素を完全に消す（Slate専用） */
+/* フッターの全要素を完全に消す */
 footer .site-footer-owner,
 footer .site-footer-credits,
 footer span,
