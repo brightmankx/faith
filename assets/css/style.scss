@@ -145,20 +145,24 @@ footer a {
 }
 
 /* ============================
-   スクショ4枚を横並びにする
+   スクショ4枚を隙間ゼロで横並びにする
    ============================ */
 .screenshot-grid {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 20px 0;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
 }
 
 .screenshot-grid img.ss-thumb {
-  width: 23%;
-  cursor: pointer;
-  border-radius: 8px;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  border: none !important;
   box-shadow: none !important;
+  outline: none !important;
+  background: none !important;
+  border-radius: 0; /* note風に角丸を消すなら0、残すなら8px */
 }
 
 /* ============================
