@@ -15,9 +15,18 @@ body {
                "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
+/* 全体を左寄せに（センタリング解除） */
 .main-content {
   max-width: 760px;
   margin: 0 auto;
+  text-align: left !important;
+}
+
+/* ============================
+   note風：段落の余白
+   ============================ */
+p {
+  margin: 1.4em 0 !important;
 }
 
 /* ============================
@@ -31,25 +40,38 @@ h1, h2, h3 {
   padding-bottom: 0 !important;
 }
 
-/* note風：h1（大見出し） */
+/* h1 */
 h1 {
   font-size: 2.1rem;
   margin-top: 2.8em;
   margin-bottom: 1.4em;
 }
 
-/* note風：h2（中見出し） */
+/* h2（note風の下線付き） */
 h2 {
   font-size: 1.6rem;
   margin-top: 2.4em;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.8em;
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding-bottom: 0.4em;
 }
 
-/* note風：h3（小見出し） */
+/* h3 */
 h3 {
   font-size: 1.3rem;
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+/* ============================
+   note風：引用デザイン
+   ============================ */
+blockquote {
+  border-left: 4px solid #e0e0e0;
+  padding-left: 1em;
+  color: #555;
+  margin: 1.6em 0;
+  font-style: normal;
 }
 
 /* ============================
@@ -98,7 +120,8 @@ footer * {
 /* Slate が画像に付ける影を完全に無効化 */
 img,
 .main-content img,
-table img {
+table img,
+td img {
   border: none !important;
   box-shadow: none !important;
   outline: none !important;
