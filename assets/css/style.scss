@@ -30,7 +30,7 @@ h1, h2, h3 {
    ヘッダー調整（細く・軽く）
    ============================ */
 header {
-  padding: 10px 0 !important;   /* 高さを細く */
+  padding: 8px 0 !important;
   border-bottom: 1px solid #ddd !important;
 }
 
@@ -42,8 +42,10 @@ header h1 {
   letter-spacing: 1px;
 }
 
-/* View on GitHub を消す */
-header .btn {
+/* ★ View on GitHub を確実に消す（Slate専用） */
+header .btn,
+header .github-button,
+header a[href*="github"] {
   display: none !important;
 }
 
@@ -51,23 +53,27 @@ header .btn {
    フッター調整（細く・軽く）
    ============================ */
 footer {
-  padding: 12px 0 !important;   /* 高さを細く */
+  padding: 10px 0 !important;
   border-top: 1px solid #ddd !important;
   text-align: center;
 }
 
-/* フッターの不要テキストを消す */
-footer span,
-footer a {
+/* ★ フッターの Published with GitHub Pages を消す */
+footer .site-footer-owner,
+footer .site-footer-credits,
+footer a[href*="github"],
+footer span {
   display: none !important;
 }
 
 /* ============================
-   スクリーンショットの枠線を消す
+   スクリーンショットの枠線を完全に消す
    ============================ */
-table img {
+table img,
+img {
   border: none !important;
   box-shadow: none !important;
+  outline: none !important;
 }
 
 /* ============================
