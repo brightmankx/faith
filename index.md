@@ -37,10 +37,13 @@
   <a href="https://brightmankx.github.io/self-jyourei/index.html">
     ▶ Webアプリ（Android/iPhone対応）
   </a>
+</p>
+
 <p align="center">
-<a href="https://github.com/brightmankx/faith/releases/latest/download/self_jyourei_v1.0.apk">
-  ▶ ネイティブアプリ（Android対応）
-</a>
+  <a href="https://github.com/brightmankx/faith/releases/latest/download/self_jyourei_v1.0.apk">
+    ▶ ネイティブアプリ（Android対応）
+  </a>
+</p>
 
 <p>&nbsp;</p>
 
@@ -127,6 +130,7 @@ document.getElementById('lightbox-overlay').addEventListener('click', () => {
   document.getElementById('lightbox-overlay').style.display = 'none';
 });
 </script>
+
 
 
 
