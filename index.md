@@ -102,3 +102,20 @@
 ご質問やご感想などありましたら、  
 メールまたは Instagram の DM からお気軽にお寄せください。
 
+
+<div id="lightbox-overlay">
+  <img id="lightbox-image">
+</div>
+
+<script>
+document.querySelectorAll('.ss-thumb').forEach(img => {
+  img.addEventListener('click', () => {
+    document.getElementById('lightbox-image').src = img.src;
+    document.getElementById('lightbox-overlay').style.display = 'flex';
+  });
+});
+
+document.getElementById('lightbox-overlay').addEventListener('click', () => {
+  document.getElementById('lightbox-overlay').style.display = 'none';
+});
+</script>
