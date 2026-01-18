@@ -9,7 +9,7 @@
   <img src="images/profielic.jpg" width="180" style="border-radius:8px;">
 </p>
 
-様々な気付きを得た50代です。師はジャスミン様です。  
+様々な気付きを得た50代です。浄霊師ジャスミン様を師事しています。  
 日々の学びや実践を、静かに記録していきます。
 
 <p>&nbsp;</p>
@@ -18,23 +18,6 @@
 
 本業は電子回路設計ですが、ITと形而上学の勉強がてら作成したアプリを紹介します。  
 以下のアプリを公開しています。
-
-<p>&nbsp;</p>
-
-## 📲 Webアプリ（PWA）のインストール方法
-
-スマホのホーム画面に追加すると、アプリのように素早く開けます。  
-以下の手順で簡単にインストールできます。
-
-### 📱 Android（Chrome）
-- 右上の「︙」をタップ  
-- ［ホーム画面に追加］ を選ぶ  
-- ［追加］ を押すとホーム画面に入ります
-
-### 🍎 iPhone（Safari）
-- 下の共有ボタン（□↑） をタップ  
-- 下にスクロールして ［ホーム画面に追加］  
-- ［追加］ を押すとホーム画面に入ります
 
 <p>&nbsp;</p>
 
@@ -53,13 +36,18 @@
 
 <p align="center">
   <a href="https://brightmankx.github.io/self-jyourei/index.html">
-    ▶ セルフ浄霊を開く
+    ▶ Webアプリ（Android/iPhone対応）
+  </a>
+</p>
+<p align="center">
+  <a href="https://brightmankx.github.io/self-jyourei/index.html">
+    ▶ ネイティブアプリ（Android対応）
   </a>
 </p>
 
 <p>&nbsp;</p>
 
-### 🖼️ セルフ浄霊スクリーンショット
+### 🖼️ スクリーンショット
 
 <div class="screenshot-grid">
   <img src="images/ss_shake.png"  class="ss-thumb">
@@ -70,16 +58,32 @@
 
 <p>&nbsp;</p>
 
-### 📝 セルフ浄霊Q&A
+### 📝 Q&A
 
-問い合わせや更新履歴を記します。  
-不具合や改善点をお寄せください。
+問い合わせや更新履歴を記します。不具合や改善点をお寄せください。
 
 <p>&nbsp;</p>
 
-## ✨ （第２弾アプリ）
+## ✨ （アプリ第２弾）
 
 現在構想中です。リクエストをお寄せください。
+
+<p>&nbsp;</p>
+
+## 📲 Webアプリのインストール方法
+
+スマホのホーム画面に追加すると、アプリのように素早く開けます。  
+以下の手順で簡単にインストールできます。
+
+### 📱 Android（Chrome）
+- 右上の「︙」をタップ  
+- ［ホーム画面に追加］ を選ぶ  
+- ［追加］ を押すとホーム画面に入ります
+
+### 🍎 iPhone（Safari）
+- 下の共有ボタン（□↑） をタップ  
+- 下にスクロールして ［ホーム画面に追加］  
+- ［追加］ を押すとホーム画面に入ります
 
 <p>&nbsp;</p>
 
@@ -119,3 +123,4 @@ document.getElementById('lightbox-overlay').addEventListener('click', () => {
   document.getElementById('lightbox-overlay').style.display = 'none';
 });
 </script>
+
