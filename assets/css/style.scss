@@ -7,9 +7,9 @@
    全体を左寄せにする（最強版）
    ============================ */
 
-/* Slate が main-content をセンタリングしているので強制上書き */
 .main-content,
-.main-content * {
+.markdown-body,
+.markdown-body * {
   text-align: left !important;
 }
 
@@ -17,7 +17,6 @@
    スクリーンショットの枠線を完全に消す（最強版）
    ============================ */
 
-/* Slate の markdown-body img に強制 shadow があるので潰す */
 .markdown-body img,
 .markdown-body table img,
 .main-content img,
@@ -28,7 +27,7 @@ img {
   background: none !important;
 }
 
-/* Slate が table に border を付けるので潰す */
+/* Slate が table に枠線を付けるので潰す */
 .markdown-body table,
 .markdown-body td,
 .markdown-body th {
@@ -39,6 +38,7 @@ img {
 /* ============================
    note風：本文の読みやすさ
    ============================ */
+
 body {
   font-size: 17px;
   line-height: 1.9;
@@ -56,6 +56,7 @@ body {
 /* ============================
    note風：段落の余白
    ============================ */
+
 p {
   margin: 1.4em 0 !important;
 }
@@ -63,6 +64,7 @@ p {
 /* ============================
    note風：見出しデザイン
    ============================ */
+
 h1, h2, h3 {
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -80,6 +82,7 @@ h2 {
 /* ============================
    引用デザイン（note風）
    ============================ */
+
 blockquote {
   border-left: 4px solid #e0e0e0;
   padding-left: 1em;
@@ -90,6 +93,7 @@ blockquote {
 /* ============================
    ヘッダー（note風）
    ============================ */
+
 header {
   background: #ffffff !important;
   padding: 12px 0 !important;
@@ -114,13 +118,17 @@ header a[href*="github"] {
 /* ============================
    フッター（note風）
    ============================ */
+
 footer {
   background: #ffffff !important;
   padding: 10px 0 !important;
   border-top: 1px solid #e5e5e5 !important;
 }
 
-/* フッターの全要素を消す */
-footer * {
+/* フッターの全要素を完全に消す（Slate専用） */
+footer .site-footer-owner,
+footer .site-footer-credits,
+footer span,
+footer a {
   display: none !important;
 }
