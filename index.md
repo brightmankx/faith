@@ -61,10 +61,12 @@
 
 ### 🖼️ セルフ浄霊スクリーンショット
 
-<img src="images/ss_shake.png" width="200">
-<img src="images/ss_dialog.png" width="200">
-<img src="images/ss_select.png" width="200">
-<img src="images/ss_mantra.png" width="200">
+<div class="screenshot-grid">
+  <img src="images/ss_shake.png"  class="ss-thumb">
+  <img src="images/ss_dialog.png" class="ss-thumb">
+  <img src="images/ss_select.png" class="ss-thumb">
+  <img src="images/ss_mantra.png" class="ss-thumb">
+</div>
 
 <p>&nbsp;</p>
 
@@ -99,3 +101,4 @@
 
 ご質問やご感想などありましたら、  
 メールまたは Instagram の DM からお気軽にお寄せください。
+
