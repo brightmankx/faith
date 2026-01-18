@@ -11,6 +11,8 @@ body {
   line-height: 1.9;
   letter-spacing: 0.2px;
   color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
 .main-content {
@@ -27,22 +29,24 @@ h1, h2, h3 {
 }
 
 /* ============================
-   ヘッダー調整（細く・軽く）
+   ヘッダー（note風の白背景）
    ============================ */
 header {
-  padding: 8px 0 !important;
-  border-bottom: 1px solid #ddd !important;
+  background: #ffffff !important;
+  padding: 12px 0 !important;
+  border-bottom: 1px solid #e5e5e5 !important;
 }
 
-/* タイトル中央寄せ */
+/* タイトルを note風に */
 header h1 {
   text-align: center !important;
-  font-size: 2.2rem !important;
+  font-size: 2.3rem !important;
   font-weight: 600;
   letter-spacing: 1px;
+  color: #333 !important;
 }
 
-/* ★ View on GitHub を確実に消す（Slate専用） */
+/* View on GitHub を確実に消す */
 header .btn,
 header .github-button,
 header a[href*="github"] {
@@ -50,19 +54,20 @@ header a[href*="github"] {
 }
 
 /* ============================
-   フッター調整（細く・軽く）
+   フッター（細く・軽く）
    ============================ */
 footer {
+  background: #ffffff !important;
   padding: 10px 0 !important;
-  border-top: 1px solid #ddd !important;
+  border-top: 1px solid #e5e5e5 !important;
   text-align: center;
 }
 
-/* ★ フッターの Published with GitHub Pages を消す */
-footer .site-footer-owner,
-footer .site-footer-credits,
-footer a[href*="github"],
-footer span {
+/* ★ Slate のフッター要素を完全に消す */
+footer div,
+footer p,
+footer span,
+footer a {
   display: none !important;
 }
 
@@ -76,9 +81,7 @@ img {
   outline: none !important;
 }
 
-/* ============================
-   note風：画像の角丸
-   ============================ */
+/* note風：画像の角丸 */
 img {
   border-radius: 8px;
 }
