@@ -4,6 +4,39 @@
 @import "{{ site.theme }}";
 
 /* ============================
+   全体を左寄せにする（最強版）
+   ============================ */
+
+/* Slate が main-content をセンタリングしているので強制上書き */
+.main-content,
+.main-content * {
+  text-align: left !important;
+}
+
+/* ============================
+   スクリーンショットの枠線を完全に消す（最強版）
+   ============================ */
+
+/* Slate の markdown-body img に強制 shadow があるので潰す */
+.markdown-body img,
+.markdown-body table img,
+.main-content img,
+img {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background: none !important;
+}
+
+/* Slate が table に border を付けるので潰す */
+.markdown-body table,
+.markdown-body td,
+.markdown-body th {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ============================
    note風：本文の読みやすさ
    ============================ */
 body {
@@ -15,11 +48,9 @@ body {
                "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 
-/* 全体を左寄せに（センタリング解除） */
 .main-content {
   max-width: 760px;
   margin: 0 auto;
-  text-align: left !important;
 }
 
 /* ============================
@@ -37,45 +68,27 @@ h1, h2, h3 {
   letter-spacing: 0.5px;
   color: #222;
   border: none !important;
-  padding-bottom: 0 !important;
 }
 
-/* h1 */
-h1 {
-  font-size: 2.1rem;
-  margin-top: 2.8em;
-  margin-bottom: 1.4em;
-}
-
-/* h2（note風の下線付き） */
+/* h2 に note風の薄いライン */
 h2 {
-  font-size: 1.6rem;
-  margin-top: 2.4em;
-  margin-bottom: 0.8em;
   border-bottom: 1px solid #e5e5e5 !important;
   padding-bottom: 0.4em;
-}
-
-/* h3 */
-h3 {
-  font-size: 1.3rem;
-  margin-top: 2em;
   margin-bottom: 1em;
 }
 
 /* ============================
-   note風：引用デザイン
+   引用デザイン（note風）
    ============================ */
 blockquote {
   border-left: 4px solid #e0e0e0;
   padding-left: 1em;
   color: #555;
   margin: 1.6em 0;
-  font-style: normal;
 }
 
 /* ============================
-   ヘッダー（note風の白背景）
+   ヘッダー（note風）
    ============================ */
 header {
   background: #ffffff !important;
@@ -91,7 +104,7 @@ header h1 {
   color: #333 !important;
 }
 
-/* View on GitHub を確実に消す */
+/* View on GitHub を消す */
 header .btn,
 header .github-button,
 header a[href*="github"] {
@@ -99,41 +112,15 @@ header a[href*="github"] {
 }
 
 /* ============================
-   フッター（細く・軽く）
+   フッター（note風）
    ============================ */
 footer {
   background: #ffffff !important;
   padding: 10px 0 !important;
   border-top: 1px solid #e5e5e5 !important;
-  text-align: center;
 }
 
-/* フッターの不要要素を完全に消す */
+/* フッターの全要素を消す */
 footer * {
   display: none !important;
-}
-
-/* ============================
-   スクリーンショットの枠線を完全に消す
-   ============================ */
-
-/* Slate が画像に付ける影を完全に無効化 */
-img,
-.main-content img,
-table img,
-td img {
-  border: none !important;
-  box-shadow: none !important;
-  outline: none !important;
-  background: none !important;
-}
-
-/* note風：画像の角丸 */
-img {
-  border-radius: 8px;
-}
-
-/* note風：リンク色 */
-a {
-  color: #2c6db8;
 }
