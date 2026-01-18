@@ -105,43 +105,31 @@ a {
 }
 
 /* ============================
-   note風：ヘッダー
+   ヘッダー完全削除（Slate専用）
    ============================ */
-header {
-  background: #ffffff !important;
-  padding: 14px 0 !important;
-  border-bottom: 1px solid #e5e5e5 !important;
-}
-
-header h1 {
-  text-align: center !important;
-  font-size: 2.3rem !important;
-  font-weight: 600;
-  color: #333 !important;
-}
-
-/* View on GitHub を消す */
-header .btn,
-header .github-button,
-header a[href*="github"] {
+header,
+header * {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
 /* ============================
-   note風：フッター
+   フッター完全削除（Slate専用）
    ============================ */
-footer {
-  background: #ffffff !important;
-  padding: 12px 0 !important;
-  border-top: 1px solid #e5e5e5 !important;
-}
-
-/* フッターの全要素を完全に消す */
-footer .site-footer-owner,
-footer .site-footer-credits,
-footer span,
-footer a {
+.site-footer,
+.site-footer *,
+footer,
+footer * {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 
 /* ============================
@@ -162,7 +150,7 @@ footer a {
   box-shadow: none !important;
   outline: none !important;
   background: none !important;
-  border-radius: 0; /* note風に角丸を消すなら0、残すなら8px */
+  border-radius: 0;
 }
 
 /* ============================
